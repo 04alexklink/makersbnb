@@ -1,18 +1,11 @@
-class Mobbnb
-  attr_reader :email, :password
-  
-  def initialize
-    @email = ""
-    @password = ""
+require 'sinatra/base'
+require './lib/mobbnb'
+
+class Mob_Boss < Sinatra::Base
+
+  get '/' do
+    erb :index
   end
 
-  def add_email(email)
-    @email = email
-  end
-
-  def add_password(password)
-    @password = password
-  end
-
-
+  run! if app_file == $0
 end

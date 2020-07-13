@@ -1,4 +1,4 @@
-require './app.rb'
+require './lib/mobbnb'
 
 describe Mobbnb do
   subject(:mobbnb) {Mobbnb.new}

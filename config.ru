@@ -2,4 +2,4 @@
 
 require_relative './app'
 
-run MobBnB
+run Mob_Boss
