@@ -7,11 +7,7 @@ MVP
 
 As a user
 So I can do things
-I want to sign up for mobbnb
-
-As a user
-So I can login
-I want to add an email address and password
+I want to add an email address and password so that I can sign up for mobbnb
 
 As a user
 So I can do things
