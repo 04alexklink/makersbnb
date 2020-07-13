@@ -27,9 +27,5 @@ I want to be able to see the space I've just listed
 
 [Mock ups](https://mobbnb.invisionapp.com/freehand/MobBnb-v1-uGJZsrs5z)
 
-Installations: 
-<!-- for node.js -->
-brew install node
-[node](https://nodejs.org/en/)
-check if you've got npm
-npm -v
+Set up: 
+bundle install
