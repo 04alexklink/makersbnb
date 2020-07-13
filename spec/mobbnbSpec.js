@@ -10,9 +10,15 @@ describe("mobbnb", function(){
 
   it("takes an email address for a user", function(){
     mobbnb.addUserEmail("mobperson@moblet.com");
-    expect(mobbnb.email).toEqual("mobperson@moblet.com");
+    expect(mobbnb.getEmail()).toEqual("mobperson@moblet.com");
   });
 
-  
+  it("takes a password for a user", function(){
+    mobbnb.addUserPassword("Hello1");
+    // expect(mobbnb.checkPassword()).toEqual(true);
+    expect(mobbnb._password).toEqual("Hello1");
+  });
+
+
 
 });
