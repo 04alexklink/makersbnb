@@ -1,16 +1,16 @@
 class Mobbnb
   attr_reader :email, :password
-  
-  def initialize
-    @email = ""
-    @password = ""
+
+  def initialize(email:, password:)
+    @email = email
+    @password = password
   end
 
-  def add_email(email)
+  def self.add_email(email)
     @email = email
   end
 
-  def add_password(password)
+  def self.add_password(password)
     @password = password
   end
 
