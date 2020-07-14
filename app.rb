@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require './lib/mobbnb'
+require './lib/user'
 
 class Mob_Boss < Sinatra::Base
   # enable :sessions
@@ -9,10 +9,10 @@ class Mob_Boss < Sinatra::Base
   end
 
   post '/signup' do
-    Mobbnb.add_email(email: params[:email_sign_up])
-    Mobbnb.add_password(password: params[:password_sign_up])
+    user = User.new
+    user.add_email(email: params[:email_sign_up])
+    user.add_password(password: params[:password_sign_up])
     erb :signup
-    p Mobbnb.email
   end
 
 
