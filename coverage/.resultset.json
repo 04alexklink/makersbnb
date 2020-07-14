@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/app.rb": {
+      "/Users/makersadmin/Documents/Projects/week5/makersbnb/app.rb": {
         "lines": [
           1,
           1,
           null,
           1,
-          1,
           null,
+          1,
           1,
           null,
           null,
@@ -17,7 +17,7 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/lib/mobbnb.rb": {
+      "/Users/makersadmin/Documents/Projects/week5/makersbnb/lib/mobbnb.rb": {
         "lines": [
           1,
           1,
@@ -38,7 +38,20 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/mobbnb_spec.rb": {
+      "/Users/makersadmin/Documents/Projects/week5/makersbnb/spec/features/signing_up_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/makersadmin/Documents/Projects/week5/makersbnb/spec/mobbnb_spec.rb": {
         "lines": [
           1,
           null,
@@ -61,6 +74,6 @@
         ]
       }
     },
-    "timestamp": 1594656954
+    "timestamp": 1594720855
   }
 }
