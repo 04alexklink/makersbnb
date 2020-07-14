@@ -1,0 +1,15 @@
+<html>
+<body style="background-color:#00CDBC;">
+
+<ul>
+  <% @users.each do |user| %>
+    <li>
+      <%= user.email %>
+      <%= user.password %>
+    
+    </li>
+  <% end %>
+</ul>
+
+</body>
+</html>

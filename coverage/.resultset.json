@@ -1,38 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/app.rb": {
+      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/app.rb": {
         "lines": [
           1,
           1,
           null,
           1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/lib/user.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          3,
-          3,
           null,
           null,
           1,
@@ -41,12 +15,62 @@
           null,
           1,
           2,
+          2,
+          2,
+          2,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/lib/user.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          4,
+          4,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          2,
           null,
           null,
           null
         ]
       },
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/spec/features/signing_up_spec.rb": {
+      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/features/signing_up_spec.rb": {
         "lines": [
           1,
           1,
@@ -54,12 +78,21 @@
           1,
           1,
           1,
+          0,
+          null,
+          null,
           1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
           null,
           null
         ]
       },
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/spec/user_spec.rb": {
+      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -83,6 +116,6 @@
         ]
       }
     },
-    "timestamp": 1594724915
+    "timestamp": 1594728448
   }
 }
