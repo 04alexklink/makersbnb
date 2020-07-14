@@ -21,6 +21,8 @@ As a user
 So I can see what I've just listed
 I want to be able to see the space I've just listed
 
+[Diagrams on Google Doc](https://docs.google.com/document/d/1L4EI2UfRkS2AZr5j7BMjax_akdKAzOghXINDZXrK-Rs/edit?usp=sharing)
+
 [Mock ups](https://mobbnb.invisionapp.com/freehand/MobBnb-v1-uGJZsrs5z)
 
 Set up: 
