@@ -9,18 +9,13 @@ class Mob_Boss < Sinatra::Base
   end
 
   post '/signup' do
-    user = User.new
-    user.add_email(email: params[:email_sign_up])
-    user.add_password(password: params[:password_sign_up])
     User.create(email: params[:email_sign_up], password: params[:password_sign_up])
+    redirect '/signup'
+  end
+
+  get '/signup' do
     erb :signup
   end
-
-  get '/users' do
-    @users = User.all
-    erb :users
-  end
-
 
   run! if app_file == $0
 end

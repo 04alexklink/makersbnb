@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/app.rb": {
+      "/Users/makersadmin/Documents/Projects/week5/makersbnb/app.rb": {
         "lines": [
           1,
           1,
@@ -16,22 +16,17 @@
           1,
           2,
           2,
-          2,
-          2,
-          0,
           null,
           null,
           1,
-          0,
-          0,
-          null,
+          2,
           null,
           null,
           1,
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/lib/user.rb": {
+      "/Users/makersadmin/Documents/Projects/week5/makersbnb/lib/user.rb": {
         "lines": [
           1,
           null,
@@ -39,38 +34,21 @@
           1,
           null,
           1,
-          4,
-          4,
-          null,
-          null,
-          1,
-          3,
-          null,
-          null,
-          1,
-          3,
-          null,
-          null,
-          1,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
+          2,
+          2,
           null,
           null,
           1,
           2,
           null,
           2,
-          2,
+          null,
           null,
           null,
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/features/signing_up_spec.rb": {
+      "/Users/makersadmin/Documents/Projects/week5/makersbnb/spec/features/signing_up_spec.rb": {
         "lines": [
           1,
           1,
@@ -78,7 +56,7 @@
           1,
           1,
           1,
-          0,
+          1,
           null,
           null,
           1,
@@ -86,13 +64,13 @@
           1,
           1,
           1,
-          0,
+          1,
           0,
           null,
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/user_spec.rb": {
+      "/Users/makersadmin/Documents/Projects/week5/makersbnb/spec/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -101,13 +79,13 @@
           1,
           1,
           1,
-          1,
+          0,
           null,
           null,
           1,
           1,
           1,
-          1,
+          0,
           null,
           null,
           null,
@@ -116,6 +94,6 @@
         ]
       }
     },
-    "timestamp": 1594728448
+    "timestamp": 1594734826
   }
 }
