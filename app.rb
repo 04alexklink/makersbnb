@@ -23,7 +23,7 @@ class Mob_Boss < Sinatra::Base
 
   get '/logincheck' do
    # @result = User.authenticate(session[:email_log_in], session[:password_log_in])
-    @result = true
+    @result = false
    erb :logincheck
 
   end

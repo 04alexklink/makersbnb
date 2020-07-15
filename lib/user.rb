@@ -17,7 +17,9 @@ class User
     result = connection.exec("INSERT INTO users (email, password) VALUES('#{email}', '#{password}') RETURNING id, email, password")
   end
 
-  def authenticate
+  def self.authenticate(email:, password:)
+    @email = email
+    @password = password
     if ENV['ENVIRONMENT'] == 'test'
       connection = PG.connect(dbname: 'mobbnb_test')
     else
@@ -25,6 +27,7 @@ class User
     end
 
     result = connection.query("SELECT password FROM users WHERE email = '#{@email}'")
+    return false unless result.any?
 
     if result[0]['password'] == @password
       return true

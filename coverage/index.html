@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>Code coverage for Makersbnb</title>
+    <title>Code coverage for Mobbnb</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.2/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.2/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
@@ -14,6 +14,7 @@
       <img src="./assets/0.12.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-07-15T12:33:28+01:00">2020-07-15T12:33:28+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -22,11 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
+  94.94%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
+       <span class="green">
+         1.34
        </span>
     </span> hits/line
     )
@@ -35,10 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>5</b> files in total.
+    <b>6</b> files in total.
   </div>
 
   <div class="t-line-summary">
+    <b>79</b> relevant lines,
+    <span class="green"><b>75</b> lines covered</span> and
+    <span class="red"><b>4</b> lines missed. </span>
+    (<span class="green">
+  94.94%
 </span>
 )
   </div>
@@ -62,6 +71,7 @@
       <tbody>
         
           <tr class="t-file">
+            <td class="strong t-file__name"><a href="#0e029ac0c907e608d12651d3b22dfe78c4558bfc" class="src_link" title="app.rb">app.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">41</td>
             <td class="cell--number">22</td>
@@ -72,11 +82,40 @@
           </tr>
         
           <tr class="t-file">
-
+            <td class="strong t-file__name"><a href="#bced92145e965931753c6eb998c71940a89b66f3" class="src_link" title="lib/user.rb">lib/user.rb</a></td>
+            <td class="yellow strong cell--number t-file__coverage">81.82 %</td>
+            <td class="cell--number">40</td>
+            <td class="cell--number">22</td>
+            <td class="cell--number">18</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">2.18</td>
             
           </tr>
         
           <tr class="t-file">
+            <td class="strong t-file__name"><a href="#2abdb3d2db50c7ff07bbc78b546c622736ec5735" class="src_link" title="spec/authentication_spec.rb">spec/authentication_spec.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#69faf9b65f922a001dc3439115bfe3113d2ce29f" class="src_link" title="spec/features/logging_in_spec.rb">spec/features/logging_in_spec.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">19</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#e73b4d68a871b6f810362cff843b5c6571abb309" class="src_link" title="spec/features/signing_up_spec.rb">spec/features/signing_up_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">9</td>
             <td class="cell--number">7</td>
@@ -87,10 +126,11 @@
           </tr>
         
           <tr class="t-file">
+            <td class="strong t-file__name"><a href="#eee9c6db48b68222665d08b731e391f3395ca3eb" class="src_link" title="spec/user_spec.rb">spec/user_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">4</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">2</td>
+            <td class="cell--number">24</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">14</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -113,6 +153,7 @@
 
       <div class="source_files">
       
+        <div class="source_table" id="0e029ac0c907e608d12651d3b22dfe78c4558bfc">
   <div class="header">
     <h3>app.rb</h3>
     <h4>
@@ -594,11 +635,12 @@
 </div>
 
       
+        <div class="source_table" id="bced92145e965931753c6eb998c71940a89b66f3">
   <div class="header">
     <h3>lib/user.rb</h3>
     <h4>
       <span class="yellow">
-  84.21%
+  81.82%
 </span>
 
       lines covered
@@ -607,9 +649,9 @@
     
 
     <div class="t-line-summary">
-      <b>19</b> relevant lines.
-      <span class="green"><b>16</b> lines covered</span> and
-      <span class="red"><b>3</b> lines missed.</span>
+      <b>22</b> relevant lines.
+      <span class="green"><b>18</b> lines covered</span> and
+      <span class="red"><b>4</b> lines missed.</span>
     </div>
 
     
@@ -686,8 +728,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
+          <li class="missed" data-hits="0" data-linenumber="7">
+            
             
 
             
@@ -697,8 +739,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
+          <li class="missed" data-hits="0" data-linenumber="8">
+            
             
 
             
@@ -741,8 +783,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="12">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="4" data-linenumber="12">
+            <span class="hits">4</span>
             
 
             
@@ -752,8 +794,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="13">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="4" data-linenumber="13">
+            <span class="hits">4</span>
             
 
             
@@ -796,8 +838,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="17">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="4" data-linenumber="17">
+            <span class="hits">4</span>
             
 
             
@@ -835,13 +877,35 @@
 
             
 
-            <code class="ruby">  def authenticate</code>
+            <code class="ruby">  def self.authenticate(email:, password:)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="21">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="21">
+            <span class="hits">4</span>
+            
+
+            
+
+            <code class="ruby">    @email = email</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="4" data-linenumber="22">
+            <span class="hits">4</span>
+            
+
+            
+
+            <code class="ruby">    @password = password</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="4" data-linenumber="23">
+            <span class="hits">4</span>
             
 
             
@@ -851,35 +915,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="22">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="24">
+            <span class="hits">4</span>
             
 
             
 
             <code class="ruby">      connection = PG.connect(dbname: &#39;mobbnb_test&#39;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="23">
-            
-            
-
-            
-
-            <code class="ruby">    else</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="24">
-            
-            
-
-            
-
-            <code class="ruby">      connection = PG.connect(dbname: &#39;mobbnb&#39;)</code>
           </li>
         </div>
       
@@ -890,29 +932,29 @@
 
             
 
+            <code class="ruby">    else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby">      connection = PG.connect(dbname: &#39;mobbnb&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
             <code class="ruby">    end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="26">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="27">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    result = connection.query(&quot;SELECT password FROM users WHERE email = &#39;#{@email}&#39;&quot;)</code>
           </li>
         </div>
       
@@ -928,24 +970,24 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="29">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="29">
+            <span class="hits">4</span>
             
 
             
 
-            <code class="ruby">    if result[0][&#39;password&#39;] == @password</code>
+            <code class="ruby">    result = connection.query(&quot;SELECT password FROM users WHERE email = &#39;#{@email}&#39;&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="30">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="30">
+            <span class="hits">4</span>
             
 
             
 
-            <code class="ruby">      return true</code>
+            <code class="ruby">    return false unless result.any?</code>
           </li>
         </div>
       
@@ -956,29 +998,29 @@
 
             
 
-            <code class="ruby">    else</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="32">
-            
-            
-
+          <li class="covered" data-hits="3" data-linenumber="32">
+            <span class="hits">3</span>
             
 
-            <code class="ruby">      return false</code>
+            
+
+            <code class="ruby">    if result[0][&#39;password&#39;] == @password</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="33">
-            
-            
-
+          <li class="covered" data-hits="2" data-linenumber="33">
+            <span class="hits">2</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      return true</code>
           </li>
         </div>
       
@@ -989,18 +1031,18 @@
 
             
 
-            <code class="ruby">    </code>
+            <code class="ruby">    else</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="35">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="35">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">      return false</code>
           </li>
         </div>
       
@@ -1011,12 +1053,45 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="37">
+            
+            
+
+            
+
+            <code class="ruby">    </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="38">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="40">
             
             
 
@@ -1031,7 +1106,7 @@
 </div>
 
       
-        <div class="source_table" id="1c957b25b6b33eb2b4001fab93328edaa287492e">
+        <div class="source_table" id="2abdb3d2db50c7ff07bbc78b546c622736ec5735">
   <div class="header">
     <h3>spec/authentication_spec.rb</h3>
     <h4>
@@ -1108,34 +1183,23 @@
 
             
 
-            <code class="ruby">    user2 = User.new(email: &#39;mobtheworld@mob.com&#39;, password: &#39;hello1&#39;)</code>
+            <code class="ruby">    result = User.authenticate(email: &#39;mobtheworld@mob.com&#39;, password: &#39;hello1&#39;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="6">
-            
-            
-
-            
-
-            <code class="ruby">    #user2.authenticate</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
+          <li class="covered" data-hits="1" data-linenumber="6">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(user2.authenticate).to be(true)</code>
+            <code class="ruby">    expect(result).to be true</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="8">
+          <li class="never" data-hits="" data-linenumber="7">
             
             
 
@@ -1146,7 +1210,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="never" data-hits="" data-linenumber="8">
             
             
 
@@ -1157,7 +1221,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
+          <li class="never" data-hits="" data-linenumber="9">
             
             
 
@@ -1172,7 +1236,247 @@
 </div>
 
       
+        <div class="source_table" id="69faf9b65f922a001dc3439115bfe3113d2ce29f">
+  <div class="header">
+    <h3>spec/features/logging_in_spec.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
 
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>9</b> relevant lines.
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">feature &#39;logging in&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby">  # scenario &#39; A user is able to visit the login page&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">  #   visit (&#39;/&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">  #   click_button(&#39;Login&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">  #   fill_in(&#39;email_log_in&#39;, with: &#39;mobtheworld@mob.com&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">  #   fill_in(&#39;password_log_in&#39;, with: &#39;hello1&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  #   click_button(&#39;Log-in&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">  #   expect(page).to have_content(&quot;Welcome to mobbnb!!&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">  # end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  scenario &#39; A user is able to visit the login page&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit (&#39;/&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_button(&#39;Login&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in(&#39;email_log_in&#39;, with: &#39;notanemail.com&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in(&#39;password_log_in&#39;, with: &#39;wronggg&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_button(&#39;Log-in&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Sorry, your details are incorrect!&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_button(&quot;Back to log-in&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="e73b4d68a871b6f810362cff843b5c6571abb309">
   <div class="header">
     <h3>spec/features/signing_up_spec.rb</h3>
     <h4>
@@ -1302,6 +1606,7 @@
 </div>
 
       
+        <div class="source_table" id="eee9c6db48b68222665d08b731e391f3395ca3eb">
   <div class="header">
     <h3>spec/user_spec.rb</h3>
     <h4>
@@ -1315,8 +1620,8 @@
     
 
     <div class="t-line-summary">
-      <b>2</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>14</b> relevant lines.
+      <span class="green"><b>14</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1362,6 +1667,226 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  describe &#39;authenticate&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;authenticates the login&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      User.create(email: &quot;mobemail@email.com&quot;, password: &quot;john1&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      result = User.authenticate(email: &quot;mobemail@email.com&quot;, password: &quot;john1&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(result).to be true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;returns false if the user is not in the database&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      result = User.authenticate(email: &quot;mobemail@email.com&quot;, password: &quot;john1&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(result).to be false</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;returns false if the password does not match the email&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      User.create(email: &quot;mobemail@email.com&quot;, password: &quot;john1&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      result = User.authenticate(email: &quot;mobemail@email.com&quot;, password: &quot;alan1&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(result).to be false</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
             
             
 
