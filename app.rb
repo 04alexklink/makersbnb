@@ -16,14 +16,13 @@ class Mob_Boss < Sinatra::Base
     session[:email_log_in] = params[:email_log_in]
     session[:password_log_in] = params[:password_log_in]
     p session
-  # User.authenticate(params[:email_log_in], params[:password_log_in)
-  # NOT GOING TO USE user.authetnicate here, but in get logincheck route
+  # User.authenticate(email: params[:email_log_in], password: params[:password_log_in])
     redirect '/logincheck'
   end
 
   get '/logincheck' do
-   # @result = User.authenticate(session[:email_log_in], session[:password_log_in])
-    @result = false
+   @result = User.authenticate(email: session[:email_log_in], password: session[:password_log_in])
+    # @result = false
    erb :logincheck
 
   end
