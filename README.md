@@ -8,6 +8,7 @@ MVP
 As a user
 So I can do things
 I want to add an email address and password so that I can sign up for mobbnb
+DONE
 
 As a user
 So I can do things
@@ -27,3 +28,5 @@ I want to be able to see the space I've just listed
 
 Set up: 
 bundle install
+
+CHECKING IF THE BRANCHING WORKS YAY

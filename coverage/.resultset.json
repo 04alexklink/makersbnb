@@ -1,7 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/makersadmin/Documents/Projects/week5/makersbnb/app.rb": {
         "lines": [
           1,
           1,
@@ -46,7 +45,6 @@
           null
         ]
       },
-      "/Users/makersadmin/Documents/Projects/week5/makersbnb/lib/user.rb": {
         "lines": [
           1,
           null,
@@ -54,44 +52,53 @@
           1,
           null,
           1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
           0,
+          null,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
           0,
           null,
           null,
           1,
-          1,
           null,
           1,
+          1,
+          null,
+          0,
+          null,
           null,
           null,
           null,
           null
         ]
       },
-      "/Users/makersadmin/Documents/Projects/week5/makersbnb/spec/features/logging_in_spec.rb": {
+      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/authentication_spec.rb": {
         "lines": [
           1,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          1,
+          1,
+          1,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          null,
           null,
           null
         ]
       },
-      "/Users/makersadmin/Documents/Projects/week5/makersbnb/spec/features/signing_up_spec.rb": {
         "lines": [
           1,
           1,
@@ -104,7 +111,6 @@
           null
         ]
       },
-      "/Users/makersadmin/Documents/Projects/week5/makersbnb/spec/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -113,6 +119,5 @@
         ]
       }
     },
-    "timestamp": 1594750887
   }
 }
