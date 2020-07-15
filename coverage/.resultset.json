@@ -112,14 +112,6 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           null,
           1,
           1,
@@ -139,23 +131,13 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
           null,
           null
         ]
       },
       "/Users/joannechen/Projects/makersbnb/spec/features/view_spaces_spec.rb": {
         "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          null,
           1,
           1,
           1,
@@ -194,6 +176,6 @@
         ]
       }
     },
-    "timestamp": 1594829534
+    "timestamp": 1594830287
   }
 }
