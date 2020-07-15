@@ -9,6 +9,7 @@ feature 'viewing a space' do
     fill_in('email_log_in', with: 'mobtheworld@mob.com')
     fill_in('password_log_in', with: 'hello1')
     click_button('Log-in')
+    click_button('See Spaces')
     expect(page).to have_content("hello this is a lovely space")
   end
 end

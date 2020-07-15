@@ -24,7 +24,11 @@ class Mob_Boss < Sinatra::Base
    @result = User.authenticate(email: session[:email_log_in], password: session[:password_log_in])
     # @result = false
    erb :logincheck
+    
+  end
 
+  get '/view_spaces' do
+    "hello this is a lovely space"
   end
 
   post '/signup' do
