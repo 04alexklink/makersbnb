@@ -1,0 +1,3 @@
+CREATE DATABASE mobbnb_test;
+\c mobbnb_test;
+CREATE TABLE users(id SERIAL PRIMARY KEY, email VARCHAR(254) NOT NULL, password VARCHAR(254) NOT NULL);
