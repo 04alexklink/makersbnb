@@ -1,0 +1,11 @@
+<h2>
+  <% if @result == true %>Welcome to mobbnb!!<% end %>
+</h2>
+<h2>
+  <% if @result == false %>Sorry, your details are incorrect!
+  <form action ='/login' method="get">
+  <input type="submit" value="Back to log-in">
+  </form>
+  <% end %>
+</h2>
+
