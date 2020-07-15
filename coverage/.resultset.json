@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/app.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/app.rb": {
         "lines": [
           1,
           1,
@@ -10,77 +10,77 @@
           1,
           null,
           1,
-          4,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          null,
-          2,
-          null,
-          null,
-          1,
-          2,
-          null,
-          2,
-          null,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/lib/user.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          1,
-          5,
-          5,
-          null,
-          0,
-          null,
-          5,
-          null,
-          null,
-          1,
-          6,
-          6,
-          6,
           6,
           null,
-          0,
           null,
-          null,
-          6,
-          6,
-          null,
-          4,
+          1,
           3,
           null,
+          null,
+          1,
+          3,
+          3,
+          3,
+          null,
+          3,
+          null,
+          null,
+          1,
+          3,
+          null,
+          3,
+          null,
+          null,
+          null,
+          1,
+          3,
+          3,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/lib/user.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          6,
+          6,
+          null,
+          0,
+          null,
+          6,
+          null,
+          null,
+          1,
+          7,
+          7,
+          7,
+          7,
+          null,
+          0,
+          null,
+          null,
+          7,
+          7,
+          null,
+          5,
+          4,
+          null,
           1,
           null,
           null,
@@ -89,7 +89,7 @@
           null
         ]
       },
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/spec/authentication_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/authentication_spec.rb": {
         "lines": [
           1,
           null,
@@ -102,7 +102,7 @@
           null
         ]
       },
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/spec/features/logging_in_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/features/logging_in_spec.rb": {
         "lines": [
           1,
           1,
@@ -129,7 +129,7 @@
           null
         ]
       },
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/spec/features/signing_up_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/features/signing_up_spec.rb": {
         "lines": [
           1,
           1,
@@ -142,7 +142,25 @@
           null
         ]
       },
-      "/Users/indisaurusrex/Projects/Ruby-based/mobbnb/spec/user_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/features/view_spaces_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -171,6 +189,6 @@
         ]
       }
     },
-    "timestamp": 1594813306
+    "timestamp": 1594826793
   }
 }

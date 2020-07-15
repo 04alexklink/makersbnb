@@ -13,6 +13,7 @@ DONE
 As a user
 So I can do things
 I want to login
+DONE
 
 As a user
 So I can make bare dollar
@@ -26,7 +27,7 @@ I want to be able to see the space I've just listed
 
 [Mock ups](https://mobbnb.invisionapp.com/freehand/MobBnb-v1-uGJZsrs5z)
 
-Set up: 
+Set up:
 bundle install
 
 CHECKING IF THE BRANCHING WORKS YAY
