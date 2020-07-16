@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/app.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/app.rb": {
         "lines": [
           null,
           null,
@@ -61,7 +61,7 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/lib/user.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/lib/user.rb": {
         "lines": [
           null,
           null,
@@ -95,7 +95,7 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/lib/space.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/lib/space.rb": {
         "lines": [
           null,
           null,
@@ -106,6 +106,7 @@
           1,
           null,
           1,
+          3,
           3,
           null,
           null,
@@ -126,7 +127,7 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/authentication_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/authentication_spec.rb": {
         "lines": [
           null,
           null,
@@ -139,10 +140,14 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/features/listing_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/features/listing_spec.rb": {
         "lines": [
           null,
           null,
+          1,
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -156,7 +161,7 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/features/logging_in_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/features/logging_in_spec.rb": {
         "lines": [
           null,
           null,
@@ -177,7 +182,7 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/features/signing_up_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/features/signing_up_spec.rb": {
         "lines": [
           null,
           null,
@@ -189,7 +194,7 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/features/view_spaces_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/features/view_spaces_spec.rb": {
         "lines": [
           null,
           null,
@@ -204,7 +209,7 @@
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/space_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/space_spec.rb": {
         "lines": [
           null,
           null,
@@ -221,23 +226,10 @@
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null
         ]
       },
-      "/Users/joshng/Makers/full-time/afternoon-challenges/week6/MakersBnB/makersbnb/spec/user_spec.rb": {
+      "/Users/Student/Documents/Makers/Projects/Week 6/makersbnb/spec/user_spec.rb": {
         "lines": [
           null,
           null,
@@ -274,6 +266,6 @@
         ]
       }
     },
-    "timestamp": 1594912905
+    "timestamp": 1594916330
   }
 }

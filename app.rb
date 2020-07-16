@@ -39,7 +39,7 @@ class MobBoss < Sinatra::Base
   end
 
   post '/list_spaces' do
-    Space.list_a_space(space_name: params[:space_name], space_address: params[:space_address])
+    Space.list_a_space(space_name: params[:space_name], space_address: params[:space_address], space_description: params[:space_description], space_price: params[:space_price])
     redirect '/view_spaces'
   end
 
