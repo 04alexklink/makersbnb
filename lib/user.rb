@@ -35,8 +35,6 @@ class User
     result[0]['password'] == @password
   end
 
-  
-
   # def self.all
   #   if ENV['ENVIRONMENT'] == 'test'
   #     connection = PG.connect(dbname: 'mobbnb_test')

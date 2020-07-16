@@ -18,3 +18,10 @@ def successful_sign_up
   fill_in('password_sign_up', with: 'hello1')
   click_button('Sign Up')
 end
+
+def add_test_space
+  click_button('List a Space')
+  fill_in('space_name', with: 'Heavenly House')
+  fill_in('space_address', with: '666 Heavenly Street')
+  click_button('Add')
+end

@@ -3,7 +3,9 @@
 feature 'viewing a space' do
   scenario 'A user is able to view spaces' do
     successful_login
-    click_button('See Spaces')
-    expect(page).to have_content('Hello this is a lovely space')
+    add_test_space
+    expect(page).to have_content 'Hello this is a lovely space'
+    expect(page).to have_content 'Heavenly House'
+    expect(page).to have_content '666 Heavenly Street'
   end
 end

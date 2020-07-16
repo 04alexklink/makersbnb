@@ -5,6 +5,7 @@ require './lib/space.rb'
 describe Space do
   describe 'all' do
     it 'returns all spaces' do
+      Space.list_a_space(space_name: 'Heavenly House', space_address: '666 Heavenly Street')
       PG.connect(dbname: 'mobbnb_test')
       spaces = Space.all
       expect(spaces.first.space_name).to eq 'Heavenly House'
