@@ -21,4 +21,12 @@ describe User do
       expect(result).to be false
     end
   end
+
+  describe 'initialize' do
+    it 'adds the emails and passwords to the variables' do
+      user = User.new(email: 'mobemail@email.com', password: 'john1')
+      expect(user.email).to eq 'mobemail@email.com'
+      expect(user.password).to eq 'john1'
+    end
+  end
 end

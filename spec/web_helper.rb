@@ -25,3 +25,11 @@ def add_test_space
   fill_in('space_address', with: '666 Heavenly Street')
   click_button('Add')
 end
+
+def test_connection_check
+  if ENV['ENVIRONMENT'] == 'test'
+    PG.connect(dbname: 'mobbnb_test')
+  else
+    PG.connect(dbname: 'mobbnb')
+  end
+end
