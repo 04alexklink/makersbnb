@@ -35,16 +35,7 @@ class User
     result[0]['password'] == @password
   end
 
-  # def self.list_a_space(space_name:, space_address:)
-  #   if ENV['ENVIRONMENT'] == 'test'
-  #     connection = PG.connect(dbname: 'mobbnb_test')
-  #   else
-  #     connection = PG.connect(dbname: 'mobbnb')
-  #   end
-  #
-  #   connection.exec("INSERT INTO spaces (space_name, space_address) VALUES('#{space_name}', '#{space_address}')")
-  #
-  # end
+  
 
   # def self.all
   #   if ENV['ENVIRONMENT'] == 'test'

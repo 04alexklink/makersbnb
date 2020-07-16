@@ -2,6 +2,7 @@
 
 require 'sinatra/base'
 require './lib/user'
+require './lib/space'
 
 # This is the route class.
 class MobBoss < Sinatra::Base
@@ -18,7 +19,6 @@ class MobBoss < Sinatra::Base
   post '/logincheck' do
     session[:email_log_in] = params[:email_log_in]
     session[:password_log_in] = params[:password_log_in]
-    p session
     # User.authenticate(email: params[:email_log_in], password: params[:password_log_in])
     redirect '/logincheck'
   end
@@ -30,7 +30,8 @@ class MobBoss < Sinatra::Base
   end
 
   get '/view_spaces' do
-    'hello this is a lovely space'
+    @spaces = Space.all
+    erb :view_spaces
   end
 
   get '/list_spaces' do
@@ -38,7 +39,7 @@ class MobBoss < Sinatra::Base
   end
 
   post '/list_spaces' do
-    #Space.list_a_space(space_name: params[:space_name], space_address: params[:space_address])
+    Space.list_a_space(space_name: params[:space_name], space_address: params[:space_address])
     redirect '/view_spaces'
   end
 
