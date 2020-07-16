@@ -24,7 +24,7 @@ class Mob_Boss < Sinatra::Base
    @result = User.authenticate(email: session[:email_log_in], password: session[:password_log_in])
     # @result = false
    erb :logincheck
-    
+
   end
 
   get '/view_spaces' do
@@ -36,8 +36,10 @@ class Mob_Boss < Sinatra::Base
   end
 
   post '/list_spaces' do
-    
+    User.list_a_space(space_name: params[:space_name], space_address: params[:space_address])
+    redirect '/view_spaces'
   end
+
   post '/signup' do
     User.create(email: params[:email_sign_up], password: params[:password_sign_up])
     redirect '/signup'
