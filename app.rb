@@ -31,6 +31,13 @@ class Mob_Boss < Sinatra::Base
     "hello this is a lovely space"
   end
 
+  get '/list_spaces' do
+    erb :list_spaces
+  end
+
+  post '/list_spaces' do
+    
+  end
   post '/signup' do
     User.create(email: params[:email_sign_up], password: params[:password_sign_up])
     redirect '/signup'

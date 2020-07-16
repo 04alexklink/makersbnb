@@ -1,8 +1,13 @@
 <h2>
-  <% if @result == true %>Welcome to mobbnb!! <% end %>
+  <% if @result == true %>Welcome to mobbnb!!
   <form action ='/view_spaces' method="get">
   <input type="submit" value="See Spaces">
   </form>
+
+  <form action ='/list_spaces' method="get">
+  <input type="submit" value="List a Space">
+  </form>
+  <% end %>
 </h2>
 <h2>
   <% if @result == false %>Sorry, your details are incorrect!
