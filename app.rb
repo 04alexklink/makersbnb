@@ -4,6 +4,7 @@ require 'sinatra/base'
 require './lib/user'
 require './lib/space'
 
+
 # This is the route class.
 class MobBoss < Sinatra::Base
   enable :sessions

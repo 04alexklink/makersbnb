@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:#00CDBC;">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+</head>
+<style>
+html {font-family: 'Lato', sans-serif; align-items: center; justify-content: center; text-align: center;}
+body {background-color: powderblue; }
+h1   {color: black; font-family: 'Lato', sans-serif;}
+#rcorners2 { border-radius: 25px; border: 2px solid #73AD21; padding: 20px; width: 200px; height: 150px;}
+</style>
+<body>
 
 <h1>MobBnB</h1>
 <h2>We take your data..... And your possesions!</h2>
-
+<div id="rcorners2">
 <form action="/signup" method="post">
 Enter your email:
 <label for="email_sign_up">
 <input type="text" name="email_sign_up">
 </label>
-<div>
+</div>
+<div id="rcorners2">
 Enter your password:
 <label for="password_sign_up">
 <input type="password" name="password_sign_up">
 </label>
 </div>
-
+<div id="rcorners2">
 <label for="Submit">
    Click here:
 <input type="submit" value="Sign Up">
 </label>
 </form>
-
-<div>
+</div>
+<div id="rcorners2">
 <form action="/login" method="get">
 <label for="Submit">
    Already signed-up? Go to login:
@@ -33,4 +43,5 @@ Enter your password:
 </div>
 
 </body>
+
 </html>
