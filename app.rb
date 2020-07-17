@@ -31,6 +31,7 @@ class MobBoss < Sinatra::Base
 
   get '/view_spaces' do
     @spaces = Space.all
+    @user_email = Space.user
     erb :view_spaces
   end
 
@@ -39,7 +40,7 @@ class MobBoss < Sinatra::Base
   end
 
   post '/list_spaces' do
-    Space.list_a_space(space_name: params[:space_name], space_address: params[:space_address], space_description: params[:space_description], space_price: params[:space_price])
+    Space.list_a_space(space_name: params[:space_name], space_address: params[:space_address], space_description: params[:space_description], space_price: params[:space_price], user_id: User.user_id)
     redirect '/view_spaces'
   end
 
