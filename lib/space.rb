@@ -2,6 +2,7 @@
 
 require './spec/web_helper'
 
+
 # This class controls the spaces added and listed on the website.
 class Space
   attr_reader :space_name, :space_address, :space_price, :space_description, :user_id
@@ -28,12 +29,14 @@ class Space
     end
   end
 
-  def self.user_id
+  def self.foreign_key
     @user_id
   end
 
   def self.user
     connection = test_connection_check
+
+    @user_id = User.user_id
 
     @user_email = connection.exec("SELECT email FROM users WHERE id = '#{@user_id}'")
 

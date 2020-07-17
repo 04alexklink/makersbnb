@@ -31,7 +31,9 @@ class MobBoss < Sinatra::Base
 
   get '/view_spaces' do
     @spaces = Space.all
-    @user_email = Space.user
+    @email = Space.user
+    @email = Space.user_email[0]['email']
+
     erb :view_spaces
   end
 
