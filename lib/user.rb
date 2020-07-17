@@ -9,7 +9,6 @@ class User
 
   def initialize(email:, password:)
     @email, @password = email, password
-    @user_id = 
   end
 
   def self.create(email:, password:)
@@ -34,5 +33,6 @@ class User
     set_id = connection.query("SELECT id FROM users WHERE email = '#{@email}'")
     p set_id[0]['id'].to_i
     @user_id = set_id[0]['id'].to_i
+    p "this is the user id after auth #{@user_id}"
   end
 end
