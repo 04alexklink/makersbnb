@@ -30,4 +30,13 @@ describe User do
       # expect(user.set_id_of_user).to be_integer
     end
   end
+
+  describe 'set id of user' do
+    it 'sets user id from id in the database' do
+    User.create(email: 'mobemail@email.com', password: 'john1')
+    User.authenticate(email: 'mobemail@email.com', password: 'john1')
+    User.set_id_of_user
+    expect(User.user_id).to be_integer
+    end
+  end
 end

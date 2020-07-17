@@ -5,7 +5,7 @@ require './spec/web_helper'
 
 # This class creates, controls and authenticates new and existing users.
 class User
-  attr_reader :email, :password, :user_id
+  attr_reader :email, :password
 
   def initialize(email:, password:)
     @email, @password = email, password
@@ -34,5 +34,9 @@ class User
     p set_id[0]['id'].to_i
     @user_id = set_id[0]['id'].to_i
     p "this is the user id after auth #{@user_id}"
+  end
+
+  def self.user_id
+    @user_id
   end
 end
