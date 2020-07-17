@@ -27,7 +27,6 @@ describe User do
       user = User.new(email: 'mobemail@email.com', password: 'john1')
       expect(user.email).to eq 'mobemail@email.com'
       expect(user.password).to eq 'john1'
-      # expect(user.set_id_of_user).to be_integer
     end
   end
 

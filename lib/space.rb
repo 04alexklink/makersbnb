@@ -4,11 +4,12 @@ require './spec/web_helper'
 
 # This class controls the spaces added and listed on the website.
 class Space
-  attr_reader :space_name, :space_address, :space_price, :space_description
+  attr_reader :space_name, :space_address, :space_price, :space_description, :user_id
 
-  def initialize(space_name:, space_address:, space_price:, space_description:)
+  def initialize(space_name:, space_address:, space_price:, space_description:, user_id:)
     @space_name, @space_address = space_name, space_address
     @space_price, @space_description = space_price, space_description
+    @user_id = user_id
   end
 
   def self.list_a_space(space_name:, space_address:, space_description:, space_price:)

@@ -13,4 +13,12 @@ describe Space do
     end
   end
 
+  describe 'get user id' do
+    it 'return the user id from the database' do
+      space = Space.new(space_name: 'Heavenly House', space_address: '666 Heavenly Street', space_description: 'No one has cleaned for ten years', space_price: '305', user_id: User.user_id)
+      expect(space.user_id).to be_integer
+
+    end
+  end
+
 end
