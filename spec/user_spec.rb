@@ -35,7 +35,7 @@ describe User do
     User.create(email: 'mobemail@email.com', password: 'john1')
     User.authenticate(email: 'mobemail@email.com', password: 'john1')
     User.set_id_of_user
-    expect(User.user_id).to be_integer
+    expect(User.user_id.to_i).to be_integer
     end
   end
 end
