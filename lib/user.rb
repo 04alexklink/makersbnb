@@ -8,7 +8,8 @@ class User
   attr_reader :email, :password
 
   def initialize(email:, password:)
-    @email, @password = email, password
+    @email = email
+    @password = password
   end
 
   def self.create(email:, password:)
@@ -18,7 +19,8 @@ class User
   end
 
   def self.authenticate(email:, password:)
-    @email, @password = email, password
+    @email = email
+    @password = password
 
     connection = test_connection_check
 
