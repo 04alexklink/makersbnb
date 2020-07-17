@@ -73,6 +73,14 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
+    sinatra-css (0.1.5)
+      sinatra (>= 1.0)
+      sinatra-tags (>= 0.1.0)
+    sinatra-outputbuffer (0.1.0)
+      sinatra (>= 1.0.a)
+    sinatra-tags (0.1.1)
+      sinatra (>= 1.0)
+      sinatra-outputbuffer (>= 0.1.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     tilt (2.0.10)
@@ -92,6 +100,7 @@ DEPENDENCIES
   simplecov
   simplecov-console
   sinatra
+  sinatra-css
 
 BUNDLED WITH
    2.1.4
