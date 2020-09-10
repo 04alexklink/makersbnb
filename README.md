@@ -7,9 +7,9 @@ The purpose of this project was to TDD the building of a clone of AirBnB using R
 
 This was a group project for week six of Makers Academy.
 
-The learning intentions for this project was to build tested, easy to change software in a team. This was our first group project and we focussed on following agile software development methods such as working in two day sprints and using XP values.
+The learning intentions for this project were to build tested, easy to change software, in a team. This was our first group project and we focussed on following agile software development methods such as working in two day sprints and using XP values.
 
-We used a Trello board to keep track of sprint tickets and for making notes on our daily stand-ups and retros.
+We used a Trello board to keep track of sprint tickets and for making notes on what to improve during our daily stand-ups and retros.
 
 Group Members:
 --------------
